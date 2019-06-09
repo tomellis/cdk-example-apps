@@ -6,6 +6,6 @@ from hello_cdk.hello_cdk_stack import HelloCdkStack
 
 
 app = cdk.App()
-HelloCdkStack(app, "hello-cdk-cdk-1")
+HelloCdkStack(app, "HelloCdkStack")
 
 app.run()
